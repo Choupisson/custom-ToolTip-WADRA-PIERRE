@@ -1,12 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-import { CustomTooltipDirective } from './custom-tooltip.directive';
+// app.module.ts
+import { CustomToolTipDirective } from './custom-tooltip.directive';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    CustomTooltipDirective
+    CustomToolTipDirective
   ],
   imports: [
     BrowserModule
